@@ -1,11 +1,11 @@
 Hi..
 
-Airbnb
+<b><i>Airbnb</i></b>
 
 
 The purpose of this project is to clone the Airbnb, Inc. website
 
-Project Overview:
+<b>Project Overview:</b>
                 Airbnb, Inc. is an American company that operates an online marketplace for 
 lodging, primarily homestays for vacation rentals, and tourism activities. Based in San Francisco, California, 
 the platform is accessible via website and mobile app. Airbnb does not own any of the listed properties; 
