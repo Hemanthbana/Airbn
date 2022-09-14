@@ -1,0 +1,228 @@
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+}
+nav{
+    padding-top: 0rem !important;
+    height: 5.1rem;
+}
+#mainmenu{
+    justify-content:space-between;
+    border-bottom:0.1px solid rgb(232, 226, 226);
+    width: 100%;
+    height:100%;
+    align-items: center;
+    display:flex;
+    position: fixed;
+    background: #ffffff;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 80px 0px 80px;
+    position: relative;
+}
+#logo{
+    width:33%;
+    margin:6px 0px 0px 0px;
+}
+#logo svg{
+    width:102;
+    height:32;
+    color:#ff385c;
+}
+#mainmenu-button{
+    width:415px;
+    height:45px;
+    margin-top: 0px;
+    padding: 0px 25px;
+    border: 0px solid black;
+    align-items: center;
+    vertical-align: middle;
+}
+.button-style{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    padding: 0px 10px;
+    box-shadow: 0px 1px 2px 0px #00000014 inset, 0px 4px 12px 0px #0000000d;
+    transition: box-shadow 2s ease;
+}
+.button-style:hover{
+    box-shadow: 0px 1.5px 2.5px 0px;
+}
+.button-style span{
+    margin-top: 14px;
+    height:20px;
+    border:0.5px solid #dfd7d7;  
+}
+.button-style a{
+    color: black;
+    text-decoration: none;
+}
+.mainmenu-button1{
+    /* width: 80px; */
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    margin: 0px 5px;
+    padding: 9px;
+}
+.mainmenu-button3{
+    color: grey;
+    background-color: transparent;
+    border: none;
+    margin: 0px 0px;
+    padding-left: 9px;
+}
+.mainmenu-button3 a{
+    color: grey;
+}
+.button-style a:hover{
+    color: inherit;
+}
+.mainmenu-search{
+    width:32px;
+    margin: 7px 0px 7px 9px;
+    padding: 2px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: #ff385c;
+}
+#hostmenu{
+    display: flex;
+    padding:0px 0px 0px 170px;
+}
+.host-button{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    border: none;
+}
+.host-button1{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.host-button1:hover{
+    background-color: #e8e8e8;
+}
+.host-globe{
+    width: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.host-globe-icon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.host-globe-icon:hover{
+    background-color: #e8e8e8;
+}
+#host-login-dropdown-div{
+    width: 80px;
+    margin:0px;
+    border-radius: 45%;
+    border: 1px solid antiquewhite;
+}
+#host-login-dropdown-div:hover{
+    box-shadow: 0px 1px 5px 0px;
+    transform: scale(1);
+}
+#host-login-dropdown-menu{
+    margin: 0px 5px;
+}
+
+#icon-menu{
+    position: sticky;
+    top: 55px;
+    z-index: 1020;
+    height: 90px;
+    align-items: initial;
+    background: #ffffff;
+    margin:0px 0px 0px -45px;
+    border:0px solid black;
+    padding: 0px 80px;   
+}
+#icon-slide{
+    display: flex;
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 11px;
+}
+#icon{
+    opacity: 0.5;
+}
+#icon:hover{
+    opacity: 1;
+    /* border-bottom: 1px solid black; */
+}
+#icon div{
+    margin-left: -5px;
+}
+.filter-button{
+    display: flex;
+    align-items: center;
+    width:100px;
+    height:45px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+#hotelcontainer{
+    margin: 0px 80px 0px 80px;
+    padding: 0px;
+}
+#hotelrow{
+    margin: 35px 0px;
+    row-gap: 0px;
+}
+#hotelcol{
+    padding:0px 5px 0px 0px;
+}
+#hotelcontent{
+    margin:0px 0px 0px 0px;
+}
+#hotelimg>img{
+    padding: 0px 5px;
+    margin: 70px 0px 0px 0px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+#details{
+    margin:3px 0px 0px 5px;
+}
+#details>p{
+    margin:2px 0px;
+}
+footer{
+    margin:0px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+#copy{
+    display: flex;
+    padding: 0px 0px 0px 75px;
+    width: 50%;
+}
+ul{
+    display: flex;
+    list-style-type:2px;
+}
+li{
+    margin: 0px 5px 0px 22px;
+}
+#region{
+    display:flex;
+    margin: -15px 0px 0px 335px;
+    padding-right: 59px;
+}
+#region>p{
+    margin:16px;
+}
