@@ -1,44 +1,111 @@
 <html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <title>Login page</title>
+        <link href="login.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <div>
-            <h3>Log in or sign up </h3>
-            <h1>Welcome to Airbnb</h1>
-            <forms>
-                <label for="county" >Country/Region</label>
-                <input id="county" type="country" name="" value="" placeholder="Country/Region" required>
-                <select>
-                    <option>United States(+1)</option>
-                </select></br>
-                <lable>Phone number</lable>
-                <input type="Phonenumber" name="" value="" required>
-            </forms>
-            </br>
-            <button>Continue</button>
-            <hr></hr>
-            </div>
-            <div class="communications">
-                <div class="facebook" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
-                    <h4><span>fav fav-facebook</span></h4> 
-                    <h4>Continue with Facebook</h4>
-                </div>
-                <div class="google" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
-                    <h4><span>fav fav-google</span></h4> 
-                    <h4>Continue with google</h4>
-                </div>
-                <div class="apple" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
-                    <h4><span>fav fav-apple</span></h4> 
-                    <h4>Continue with apple</h4>
-                </div>
-                <div class="email" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
-                    <h4><span>fav fav-email</span></h4> 
-                    <h4>Continue with email</h4>
-                </div>
 
+       <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+            login
+        </button>
+  
+        <!-- Modal -->
+        <div class="modal fade-dialog modal-dialog-scrollable" id="login" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+            <div class="modal-dialog">
+            <div id="loginmodal" class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="loginhead">Log in or Sign up</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <h5>Welcome to Airbnb</h5>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option selected>United States(+1)</option>
+                          <option value="1">India(+91)</option>
+                          <option value="2">England(+01)</option>
+                          <option value="3">Germany(+25)</option>
+                        </select>
+                        <label for="floatingSelect">Country/Region</label>
+                    </div>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <!-- <option selected>United States(+1)</option>
+                          <option value="1">Inida(+91)</option>
+                          <option value="2">England(+01)</option>
+                          <option value="3">Germany(+25)</option> -->
+                        </select>
+                        <label for="floatingSelect">Phone number</label>
+                    </div>
+                    <p>We’ll call or text you to confirm your number. Standard message and data rates apply. <a href="#">Privacy Policy</a></p>
+                    <button class="butn">Continue</button>
+                    <hr></hr>
+                    <div class="communications">
+                        <div class="facebook" style="display:flex;margin:5%;width:90%;height:40px;border:1px solid black;align-items: center; border-radius:5px;">
+                            Continue with Facebook
+                        </div>
+                        <div class="facebook" style="display:flex;margin:5%;width:90%;height:40px;border:1px solid black;align-items: center; border-radius:5px;">
+                            Continue with Google
+                        </div>
+                        <div class="facebook" style="display:flex;margin:5%;width:90%;height:40px;border:1px solid black;align-items: center; border-radius:5px;">
+                            Continue with Apple
+                        </div>
+                        <div class="facebook" style="display:flex;margin:5%;width:90%;height:40px;border:1px solid black;align-items: center; border-radius:5px;">
+                            Continue with Email
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
+        <!-- <div>
+            <!-- Scrollable modal
+            <div id="login" class="modal-dialog modal-dialog-scrollable" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+                <h3>Log in or sign up </h3>
+                <h1>Welcome to Airbnb</h1>
+                <forms>
+                    <label for="county" >Country/Region</label>
+                    <input id="county" type="country" name="" value="" placeholder="Country/Region" required>
+                    <select>
+                        <option>United States(+1)</option>
+                    </select></br>
+                    <lable>Phone number</lable>
+                    <input type="Phonenumber" name="" value="" required>
+                </forms>
+                </br>
+                <button>Continue</button>
+                <hr></hr>
+                <div class="communications">
+                    <div class="facebook" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
+                        Continue with Facebook
+                    </div>
+                    <div class="google" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
+                        <h4><span>fav fav-google</span></h4> 
+                        <h4>Continue with google</h4>
+                    </div>
+                    <div class="apple" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
+                        <h4><span>fav fav-apple</span></h4> 
+                        <h4>Continue with apple</h4>
+                    </div>
+                    <div class="email" style="display:flex;margin:15px 0px 0px 70px;width:40%;border:1px solid black; border-radius:10px;">
+                        <h4><span>fav fav-email</span></h4> 
+                        <h4>Continue with email</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h5>Popover in a modal</h5>
+                <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+                <hr>
+                <h5>Tooltips in a modal</h5>
+                <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+              </div>
+            <div>
+
+            
+        </div> -->
     </body>
 </html>

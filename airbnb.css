@@ -2,6 +2,10 @@ body{
     margin: 0px 0px 0px 0px;
     background-color: #ffffff;
 }
+.body1{
+    background-color: black;
+    color: white;
+}
 nav{
     padding-top: 0rem !important;
     height: 5.1rem;
@@ -225,4 +229,20 @@ li{
 }
 #region>p{
     margin:16px;
+}
+#coupan{
+    position: absolute;
+    z-index: 100;
+    width: 670px;
+    height:75%;
+    margin: -150% 0% 0% 300px;
+    align-items: center;
+    visibility: hidden;
+}
+#coupnbtn {
+    margin:-68% 93%;
+    background:none;
+    color:black;
+    border: none;
+    font-size:50px; 
 }

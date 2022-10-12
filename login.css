@@ -1,0 +1,35 @@
+#login{
+  
+}
+#loginhead{
+    font-size: 14px;
+    margin:0px 135px;
+}
+h5{
+    margin:25px 0px 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 10px;
+    font-weight: 300;  
+}
+.butn{
+    margin:10px 25px 0px 25px;
+    width:90%;
+    height:40px;
+    color:white;
+    background-color:#e41d52;
+    border: none;border-radius:5px;"
+}
+#loginmodal{
+    margin: 32px 0px 0px 30px;
+    width:460px;
+    border-radius: 10px;
+    height:490px;
+}
+#floatingSelect {
+    height: 55px;
+    font-weight: 400;
+    font-size: 14px;
+}
