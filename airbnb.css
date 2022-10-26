@@ -1,3 +1,4 @@
+
 body{
     margin: 0px 0px 0px 0px;
     background-color: #ffffff;
@@ -24,7 +25,7 @@ nav{
     position: relative;
 }
 #logo{
-    width:33%;
+    width:15%;
     margin:6px 0px 0px 0px;
 }
 #logo svg{
@@ -235,14 +236,34 @@ li{
     z-index: 100;
     width: 670px;
     height:75%;
-    margin: -150% 0% 0% 300px;
+    margin: 10% 0% 0% 350px;
     align-items: center;
     visibility: hidden;
 }
 #coupnbtn {
-    margin:-68% 93%;
+    margin:-80% 93%;
     background:none;
     color:black;
     border: none;
     font-size:50px; 
+}
+
+/* .out{
+    margin:0px 0px 0px-250px;
+    width:25px;
+    border:none;
+    background-color:#ff385c;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+} */
+.out1{
+    margin:0px 0px 0px -50px;
+    width:200px;
+    border:none;
+    background-color:transparent;
+    border: 1px solid red;
+    color:black;
+    border-radius: 5px;
+    text-align: center;
 }
